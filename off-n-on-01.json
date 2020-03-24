@@ -1,0 +1,227 @@
+{
+  "deviceType": "off-n-on",
+  "name": "01",
+  "arcPeriod": 60000,
+  "timeStamp": 1584283380359,
+  "lastArchive": 1584283329231,
+  "avgRms": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 6.65,
+    "unit": "mA",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 0,
+        "low": 1,
+        "high": 4000,
+        "hihi": 5000
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "milliAmps": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 117.77,
+    "unit": "mA",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -2,
+        "low": -1,
+        "high": 4000,
+        "hihi": 5000
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "power": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 28.27,
+    "unit": "Watts",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -2,
+        "low": -1,
+        "high": 900,
+        "hihi": 1000
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "adcSampleRate": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 19.08,
+    "unit": "kHz",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 0,
+        "low": 1,
+        "high": 4000,
+        "hihi": 5000
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "linkQuality": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 70,
+    "unit": "/70",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 30,
+        "low": 40,
+        "high": 71,
+        "hihi": 80
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "signalLevel": {
+    "action": "reading",
+    "type": "scalar",
+    "value": -20,
+    "unit": "dBm",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -70,
+        "low": -60,
+        "high": 0,
+        "hihi": 30
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "powerOn": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 0,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -2,
+        "low": -1,
+        "high": 2,
+        "hihi": 3
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "nsamples": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 10000,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 100,
+        "low": 200,
+        "high": 100000,
+        "hihi": 110000
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "avgRmsOffset": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 0.37,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 1000,
+        "hihi": 1100
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "adcTomA": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 47,
+    "unit": "mA",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 1000,
+        "hihi": 1100
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "loopDelay": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 1000,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 20000,
+        "hihi": 30000
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  }
+}
