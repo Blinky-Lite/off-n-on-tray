@@ -1,13 +1,13 @@
 {
   "deviceType": "off-n-on",
-  "name": "01",
+  "name": "02",
   "arcPeriod": 60000,
   "timeStamp": 1584283380359,
   "lastArchive": 1584283329231,
   "avgRms": {
     "action": "reading",
     "type": "scalar",
-    "value": 0.38,
+    "value": 0.01,
     "unit": "mA",
     "alarm": {
       "value": 1,
@@ -67,7 +67,7 @@
   "adcSampleRate": {
     "action": "reading",
     "type": "scalar",
-    "value": 19.12,
+    "value": 14.28,
     "unit": "kHz",
     "alarm": {
       "value": 0,
@@ -87,7 +87,7 @@
   "linkQuality": {
     "action": "reading",
     "type": "scalar",
-    "value": 58,
+    "value": 65,
     "unit": "/70",
     "alarm": {
       "value": 0,
@@ -107,7 +107,7 @@
   "signalLevel": {
     "action": "reading",
     "type": "scalar",
-    "value": -52,
+    "value": -45,
     "unit": "dBm",
     "alarm": {
       "value": 0,
@@ -147,7 +147,7 @@
   "nsamples": {
     "action": "setting",
     "type": "scalar",
-    "value": 2000,
+    "value": 5000,
     "unit": "unit",
     "alarm": {
       "value": 0,
@@ -164,10 +164,30 @@
       }
     }
   },
+  "nfilter": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 30,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 1,
+        "low": 2,
+        "high": 80,
+        "hihi": 90
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
   "avgRmsOffset": {
     "action": "setting",
     "type": "scalar",
-    "value": 0.39,
+    "value": 0.009,
     "unit": "unit",
     "alarm": {
       "value": 0,
@@ -187,7 +207,7 @@
   "adcTomA": {
     "action": "setting",
     "type": "scalar",
-    "value": 47,
+    "value": 56.5,
     "unit": "mA",
     "alarm": {
       "value": 0,
